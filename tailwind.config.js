@@ -33,7 +33,7 @@ module.exports = {
         900: "56rem",
       },
       width: {
-        85: "29rem",
+        85: "23rem",
       },
     },
   },
