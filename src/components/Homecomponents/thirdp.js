@@ -114,7 +114,7 @@ function Third() {
     <>
       <div className="max-w-5xl mx-auto">
         <div className="mt-10">
-          <p className="text-5xl uppercase font-semibold">
+          <p className="text-4xl uppercase font-semibold">
             {slader[count].title}
           </p>
           <div className=" w-62 h-130">
