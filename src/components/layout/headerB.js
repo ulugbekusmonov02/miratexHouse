@@ -99,7 +99,7 @@ function MobileMenu(props) {
         className="fixed z-40 flex gap-20 bg-black left-0 inset-y-0 p-8"
         onClick={props.open}
       >
-        <div className="flex flex-col justify-between ">
+        <div className="flex flex-col justify-evenly ">
           <ul className="flex flex-col text-md capitalize gap-12 md:mr-4 font-bold  ">
             <li>
               <Link className=" hover:opacity-60" to={"/"}>
