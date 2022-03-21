@@ -46,10 +46,11 @@ function Footer() {
               </div>
             </div>
           </div>
-          {FooterLine}
 
-          <div className="flex justify-between my-4">
-            <p className="text-white">© MiratexHouse. all rights reserved</p>
+          <div className="flex justify-between  border-t border-white">
+            <p className="text-white mt-4">
+              © MiratexHouse. all rights reserved
+            </p>
           </div>
         </div>
       </div>

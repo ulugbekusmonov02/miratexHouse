@@ -21,10 +21,7 @@ function Header() {
     <>
       <header className="border-b-2  px-4 py-2">
         {!menu && (
-          <div
-            className="fixed inset-0 backdrop-blur-md bg-white/30 z-30"
-            onClick={open}
-          ></div>
+          <div className="fixed inset-0 backdrop-blur-md bg-white/30 z-30"></div>
         )}
         <div className=" max-w-6xl mx-auto flex  items-center gap-10 ">
           <div className="md:hidden">
@@ -69,7 +66,9 @@ function Catalog() {
     <div className="flex items-center  justify-between ">
       <div className="hidden md:block items-center ">
         <ul className="flex text-xs uppercase gap-12 font-semibold md:mr-4">
-          <li>Каталог</li>
+          <li>
+            <a href="#catalog">Каталог</a>
+          </li>
           <li>
             <Link to={"/contact"}>Контакты </Link>
           </li>

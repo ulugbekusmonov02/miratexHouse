@@ -30,7 +30,9 @@ function Second() {
         </div>
         <Use />
         <Earn />
-        <Catalog />
+        <div id="catalog">
+          <Catalog />
+        </div>
         <hr></hr>
       </div>
     </>
@@ -226,7 +228,7 @@ function Catalog() {
 
       <Button
         Cstyle={
-          "py-2 px-6 mt-20 w-60 sm:w-96 mb-16 sm:mb-36 md:mb-64 border-black border shadow-md  text-center hover:border-opacity-50 uppercase font-semibold"
+          "py-2 px-6 mt-20 w-60 sm:w-96 mb-16 sm:mb-36 md:mb-40 border-black border shadow-md  text-center hover:border-opacity-50 uppercase font-semibold"
         }
         text={"скачать каталог"}
       />
